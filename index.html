@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="icon" href="juin.jpg">
+    <link rel="stylesheet" href="app1.css">
+</head>
+<body>
+    <form id="s1" onsubmit="fun1(); return false;">
+
+        <div class="signup">
+            <h1>Signup</h1>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="number" placeholder="Enter Your Age">
+            <input type="email" placeholder="Enter Your Email">
+            <button type="button" onclick="fun1()">Signup</button>
+
+            <p>Already Have An Account Login Here <a href="login.html">Login</a></p>
+        </div>
+    </form>
+    <script>
+        function fun1() {
+            window.location.href = "login.html";
+        }
+    </script>
+    
+</body>
+</html>

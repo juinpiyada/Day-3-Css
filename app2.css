@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:arial;
+    background-color:rgb(218, 70, 33);
+    text-align:center;
+
+   
+}
+.login{
+    margin:80px auto;
+    padding:40px auto;
+    background-color:rgb(222, 216, 191);
+    display:flex;
+    flex-direction:column;
+    height:300px;
+    width:400px;
+    border:5px solid black;
+    border-radius:12px solid rgb(192, 14, 44);
+    box-shadow:10px 20px 20px 10px rgb(98, 163, 1);
+    text-align:center;
+    border-color:rgb(59, 0, 197);
+    border-radius:50px;
+   
+    
+}
+input{
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    background-color:bisque;
+    border: 0.1em solid black;
+
+
+}
+button{
+    margin:10px;
+    padding:10px;
+    color:black;
+    background-color:solid rgb(2, 2, 192);
+    text-align:center;
+    font-size:19;
+    border-radius:5px;
+
+}
+
+button:hover
+{
+    color:rgb(0, 0, 0);
+    background: white;
+    background-color: #04AA6D;
+}
